@@ -1,3 +1,12 @@
+terraform {
+  cloud {
+    organization = "jsw4562"      # 본인 테라폼 클라우드 조직명
+    workspaces {
+      name = "tf-with-actions"   # 본인 워크스페이스 이름
+    }
+  }
+}
+
 provider "aws" {
   region = "ap-northeast-2"
 }
