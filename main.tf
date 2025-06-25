@@ -3,6 +3,6 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "my_bucket" {
-  bucket = "my-tf-bucket-kingzuto-1750832573"
+  bucket = "my-tf-bucket-kingzuto-NEWNUMBER"
   acl    = "private"
 }
